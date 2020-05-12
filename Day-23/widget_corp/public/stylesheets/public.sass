@@ -1,0 +1,130 @@
+$blue-grey: #1A446C
+$light-blue: #689DC1
+$very-light-blue: #D4E6F4
+$light-tan: #EEE4B9
+$burgundy: #8D0D19
+
+html
+    height: 100% 
+    width: 100% 
+
+body 
+    width: 100% 
+    height: 100%
+    margin: 0 
+    padding: 0 
+    border: 0
+    font-family: Verdana, Arial, Helvetica, sans-serif
+    font-size: 13px
+    line-height: 15px
+    background: $light-tan
+
+
+img
+    border: none 
+
+a
+    color: $burgundy 
+
+a:hover
+    color: $blue-grey 
+
+#header 
+    height: 70px
+    margin: 0 
+    padding: 0 
+    text-align: left
+    background: $blue-grey 
+    color: $very-light-blue
+
+
+#header
+    h1
+        padding: 1em 
+        margin: 0 
+
+#main 
+    height: 600px 
+    width: 100%
+    margin: 0 
+    padding: 0
+    background: $light-tan
+
+
+#footer 
+    clear: both
+    height: 2em 
+    margin: 0 
+    padding: 1em
+    text-align: center
+    background: $blue-grey
+    color: $very-light-blue
+
+
+/* Navigation */
+#navigation 
+    float: left
+    width: 150px
+    height: 100%
+    margin: 0 
+    padding: 0 2em
+    color: $very-light-blue 
+    background: $burgundy
+
+#navigation
+    a
+        color: $very-light-blue 
+        text-decoration: none 
+    a:hover
+        color: #FFFFFF
+
+ul.subjects 
+    margin: 1em 0 
+    padding-left: 0 
+    list-style: none
+
+ul.pages  
+    padding-left: 2em 
+    list-style: square 
+    font-weight: normal 
+
+/* the "font-weight" property tells it that by default it should normal weight, DON'T pickup the selected style, unless you have been told specifically that you are selected. */
+.selected 
+    font-weight: bold 
+
+/* Page Content */
+#page 
+    float: left 
+    height: 100%
+    padding-left: 2em 
+    vertical-align: top
+    background: $light-tan
+
+#page 
+    h2  
+        color: $burgundy 
+        margin-top: 1em 
+    h3  
+        color: $burgundy
+
+.view-content
+    margin: 1em
+    padding: 1em
+    border: 1px solid #999
+
+div.message 
+    border: 2px solid $burgundy
+    color: $burgundy 
+    font-weight: bold
+    margin: 1em 0 
+    padding: 1em
+
+/* errors */
+.error
+    color: $burgundy
+    border: 2px solid $burgundy
+    margin: 1em 0
+    padding: 1em
+
+    ul
+        padding-left: 2em
